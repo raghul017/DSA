@@ -5,7 +5,6 @@ arr = list(map(int , input("Enter the numbers").split()))
 
 #precompute frequencies using a list (like hash table)
 hash_table = [0] * 13
-
 for num in arr:
     hash_table[num] +=1
 
