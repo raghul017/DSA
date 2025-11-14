@@ -16,9 +16,7 @@ def selection_sort(arr):
             if arr[j] < arr[min_ele]:
                 min_ele = j
         
-        temp = arr[i]
-        arr[i] = arr[min_ele]
-        arr[min_ele] = temp 
+        arr[i] , arr[min_ele] = arr[min_ele] , arr[i]
     return arr
 
 arr = [40 , 19 , 36 , 20]
