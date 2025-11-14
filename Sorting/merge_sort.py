@@ -1,4 +1,5 @@
 def merge_sort(arr):
+    
     # Base case: if the list has 0 or 1 element, it's already sorted
     if len(arr) <= 1:
         return arr
